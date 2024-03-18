@@ -1,4 +1,4 @@
-module ShoppingCart
+module github.com/NietThijmen/ShoppingCart
 
 go 1.21
 

@@ -1,8 +1,8 @@
 package main
 
 import (
-	"ShoppingCart/storage"
-	"ShoppingCart/ui"
+	"github.com/NietThijmen/ShoppingCart/storage"
+	"github.com/NietThijmen/ShoppingCart/ui"
 	"github.com/charmbracelet/log"
 	"github.com/urfave/cli/v2"
 	"os"

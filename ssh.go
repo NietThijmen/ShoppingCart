@@ -1,7 +1,7 @@
 package main
 
 import (
-	"ShoppingCart/storage"
+	"github.com/NietThijmen/ShoppingCart/storage"
 	"os"
 	"os/exec"
 )
