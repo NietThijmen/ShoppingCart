@@ -78,7 +78,7 @@ func main() {
 					options := make([]ui.SelectOption, len(cart.Items))
 					for i, item := range cart.Items {
 						options[i] = ui.SelectOption{
-							Key:   item.Host,
+							Key:   strconv.FormatInt(int64(i), 10),
 							Value: item.User + "@" + item.Host + ":" + item.Port,
 						}
 					}
