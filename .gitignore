@@ -1,2 +1,2 @@
-ShoppingCart # main executable, which is the main entry point for the application. (this should be handled by a CI/CD / go build.)
-.idea
+.idea/
+ShoppingCart
