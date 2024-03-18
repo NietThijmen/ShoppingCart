@@ -10,9 +10,19 @@ This was meant as a simple project to manage all my SSH logins, and to learn abo
 - Custom input and select dialogs
 
 ## Installation
-1. Install the main executable file to your system
-2. Make the program executable (linux & mac)
-3. Add the following line to your `.bashrc` or `.zshrc` file:
+1. Install the source code
+```bash
+git clone git@github.com:NietThijmen/ShoppingCart.git 
+```
+
+2. Compile the source code
+```bash
+cd ShoppingCart
+go build
+```
+
+3. Make the program executable (linux & mac)
+4. Add the following line to your `.bashrc` or `.zshrc` file:
 ```bash
 alias ShoppingCart='/path/to/ShoppingCart'
 ```
