@@ -2,6 +2,7 @@ package ui
 
 import (
 	"fmt"
+	"github.com/NietThijmen/ShoppingCart/validator"
 )
 
 func Input(title string, length int) string {
@@ -16,6 +17,12 @@ func Input(title string, length int) string {
 
 		if len(input) > length {
 			fmt.Println("Input too long")
+			continue
+		}
+
+		// Fixes bug issue: 1
+		if validator.ContainsIllegalCharacter(input) {
+			fmt.Println("Input contains illegal character")
 			continue
 		}
 
